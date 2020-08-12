@@ -1,0 +1,45 @@
+#heading {
+    margin: 20px auto;
+}
+
+body {
+    background: #B2FEFA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#tables {
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+#inputs {
+    border: 1px solid black;
+    margin-top: 3px;
+}
+
+#section {
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 5rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+#back {
+    color: white;
+}
+
+#table_header_name {
+    border-top-left-radius: 15px;
+}
+
+#table_header_math {
+    border-top-right-radius: 15px;
+}
+

@@ -1,0 +1,40 @@
+<!--Including html boilerplate-->
+<%- include("partials/header.ejs") %> 
+
+<% listOfStudents.sort(function(a, b) { %>
+  <% return b.average - a.average %>
+<% }); %> 
+  
+  
+<div class="container">
+  
+  <h1 id="heading">Students' Grade List: </h1>
+  
+    <table id="tables" class="ui celled table selectable">
+          <thead>
+            <tr>
+            <th id="table_header_name">Name</th>
+            <th>English</th>
+            <th id="table_header_math">Math</th>
+          </tr></thead>
+          <tbody>
+              <% listOfStudents.forEach((student) => { %>
+                  <tr>
+                      <td data-label="Name"><h4><%= student.name %></h4> </td>
+                      <td data-label="English"><%= student.score.engMarks %> </td>
+                      <td data-label="Math"><%= student.score.mathMarks %></td>
+                    </tr>
+              <% }); %>
+            
+          </tbody>
+        </table>
+  
+        <button class="ui button yellow"><a id="back" href="/">Add another student</a></button>
+</div> 
+  
+
+
+
+
+<!--Including html boilerplate-->
+<%- include("partials/footer.ejs") %> 
