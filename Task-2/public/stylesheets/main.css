@@ -6,7 +6,7 @@
   
 .card {
     width: 30%;
-    height: 60%;
+    height: 100%;
     border-radius: 15px;
     padding: 1.5rem;
     background: white;
@@ -15,6 +15,7 @@
     align-items: flex-end;
     transition: 0.4s ease-out;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    
 }
   .card:hover {
     -webkit-transform: translateY(20px);
@@ -84,4 +85,14 @@
     background: dodgerblue;
     color: white;
   }
+
+h1 {
+  margin: 2rem auto 10rem auto;
+  text-align: center;
+  text-shadow: 2px 3px 5px white;
+}
+  
+body {
+  background-color: yellow;
+}
   
