@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--including html boilerplate (header)-->
+<%- include("partials/header") %> 
+
+
+        <h1>Hi! Joke will be displayed here.</h1>
+        <p>The joke id is:  <%= jokeData.data.id %> </p>
+        
+        <p>The joke category is: <%= jokeData.data.category %> </p>
+        <% if (jokeData.data.type === "single") { %> 
+        <p>The joke : <%- jokeData.data.joke %></p> 
+        <% } else { %>
+        <p>The joke: <%- JSON.stringify(jokeData.data.setup) + " ........" + JSON.stringify(jokeData.data.delivery) %></p> 
+        <% } %> 
+        
+        <button><a href="/">Go Back</a></button>
+        
+<!--including html boilerplate (footer)-->
+<%- include("partials/footer") %> 
