@@ -34,7 +34,7 @@ If the installation was successful, you should be able to run the following comm
 ### Install  dependancies
 all dependancies can be found in the package.json file of a respective task
 
-    $npm install <dependancy>
+    $npm install <dependancy> --save
 
 ### MongoDB
 
