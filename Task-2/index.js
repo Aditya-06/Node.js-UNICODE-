@@ -8,6 +8,9 @@ var joke;
 // set default view engine type to be an ejs file
 app.set("view engine", "ejs");
 
+// add public directory
+app.use(express.static(__dirname + "/public"));
+
 
 app.get("/:id", function(req, res) {
     axios.get(`https://sv443.net/jokeapi/v2/joke/${req.params.id}`) 
