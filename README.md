@@ -36,7 +36,8 @@ all dependancies can be found in the package.json file of a respective task
 
     $npm install <dependancy> --save
 
-================================================= FOR TASK -4 =======================================
+
+For task 4
 ### MongoDB
 
   mongod - The database server.
@@ -64,7 +65,6 @@ all dependancies can be found in the package.json file of a respective task
 
   https://docs.mongodb.com/manual/
 
-=======================================================================================
 
 ## Install
 
@@ -81,7 +81,7 @@ all dependancies can be found in the package.json file of a respective task
 
 
 
-================================================= TASK -2 =================================
+## Task 2
 
 Run commmand  $ node index.js and check out localhost:3000 on your web browser-- the ouput should be the following
 
@@ -89,8 +89,7 @@ Run commmand  $ node index.js and check out localhost:3000 on your web browser--
 ![image](https://user-images.githubusercontent.com/56297484/89985410-a3d4e680-dc98-11ea-9d44-5ac85a45ed3f.png)
 
 
-
-==============================================TASK - 4 ===========================================
+## Task 4
 
 Run command $ node app.js and check out localhost:3000 on your web browser-- the ouput should be the following
 
